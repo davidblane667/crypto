@@ -286,7 +286,7 @@ export default {
       this.graph = [];
     },
 
-    tickers(newValue, oldValue) {
+    tickers() {
       localStorage.setItem("cryptonomicon-list", JSON.stringify(this.tickers));
     },
 
